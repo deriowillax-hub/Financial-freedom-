@@ -1,7 +1,8 @@
 {
   "name": "Financial Freedom",
-  "short_name": "FF Tracker",
-  "description": "Personal finance tracker — income, expenses, savings and goals in TZS.",
+  "short_name": "Freedom",
+  "id": "financial-freedom-app",
+  "description": "Track your income, expenses and net worth — built for serious financial discipline.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -9,36 +10,28 @@
   "background_color": "#0F1729",
   "theme_color": "#2563EB",
   "lang": "en",
-  "categories": ["finance", "productivity"],
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [],
-  "shortcuts": [
-    {
-      "name": "Add Income",
-      "short_name": "Income",
-      "description": "Quickly log income",
-      "url": "/?view=log",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Add Expense",
-      "short_name": "Expense",
-      "description": "Quickly log an expense",
-      "url": "/?view=log",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+      "purpose": "maskable any"
     }
   ]
 }
